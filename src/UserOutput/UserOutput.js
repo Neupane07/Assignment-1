@@ -1,9 +1,11 @@
 import React from 'react'
 
-const UserOutput = () => {
+import './UserOutput.css'
+
+const UserOutput = (props) => {
     return (
-        <div>
-            <p>Some random text!</p>
+        <div className="UserOutput">
+            <p>Username: {props.userName}</p>
             <p>Text to get overwritten</p>
         </div>
     );

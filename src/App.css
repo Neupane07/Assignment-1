@@ -1,3 +1,8 @@
-.App {
+.App{
+  background-color:lightslategrey;
   text-align: center;
+  width: 50%;
+  margin: auto;
+  padding:20px;
+  margin-top: 20px;
 }
